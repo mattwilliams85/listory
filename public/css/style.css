@@ -117,6 +117,10 @@ footer {
     .combo-wrap.show #combo-3 {
       animation: spinDown 2.5s; }
 
+.combo-text {
+  position: relative;
+  z-index: 1; }
+
 .phone-wrap {
   position: relative; }
   .phone-wrap .phone {
@@ -197,6 +201,9 @@ footer {
       section.history h1 {
         margin: 20px 0 10px 0; }
 
+  .combo {
+    opacity: 0.7; }
+
   .quote {
     font-size: 12pt;
     max-width: 880px; } }
@@ -207,6 +214,9 @@ footer {
       border-width: 30px 0px 35px 30px;
       bottom: -35px;
       right: 81px;
-      transform: rotate(52deg); } }
+      transform: rotate(52deg); }
+
+  .combo {
+    opacity: 1; } }
 
 /*# sourceMappingURL=style.css.map */

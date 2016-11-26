@@ -157,6 +157,11 @@ footer {
   }
 }
 
+.combo-text {
+  position: relative;
+  z-index: 1;
+}
+
 .phone-wrap {
   position: relative;
   .phone {
@@ -273,6 +278,10 @@ section {
   }
 }
 
+.combo {
+  opacity: 0.7;
+}
+
 .quote {
   font-size: 12pt;
   max-width: 880px;
@@ -290,4 +299,8 @@ section {
       transform: rotate(52deg);
     }
   }
+  .combo {
+    opacity: 1;
+  }
+
 }
